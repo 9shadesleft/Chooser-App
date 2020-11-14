@@ -31,13 +31,13 @@ int main()
         std::string yes_no_bool_eval;
         std::cin >> yes_no_bool_eval;
         //Determine if that was a Y or N
-        if (yes_no_bool_eval == "Y" || "y")
+        if (yes_no_bool_eval == "Y" || yes_no_bool_eval == "y")
         {
             yes_no_bool = true;
             std::cout << "Y Confirmed";
             std::cout << "\n";
         }
-        else if (yes_no_bool_eval == "N" || "n")
+        else if (yes_no_bool_eval == "N" || yes_no_bool_val == "n")
         {
             yes_no_bool = false;
             std::cout << "N Confirmed";
